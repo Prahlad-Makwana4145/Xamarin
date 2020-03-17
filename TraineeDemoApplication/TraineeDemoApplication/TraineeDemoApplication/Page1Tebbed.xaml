@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"  
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+             x:Class="TraineeDemoApplication.Page1Tebbed"  
+            BarBackgroundColor="Blue"
+            Title="TabbedPage">
+    <!--Pages can be added as references or inline-->
+    <ContentPage Title="Page-1">
+        <FlexLayout Direction="Column"
+                AlignItems="Center"
+                JustifyContent="SpaceEvenly">
+
+            <Label Text="Page - 1"
+               FontSize="Large" />
+
+            <Image Source="https://previews.123rf.com/images/mangpor2004/mangpor20041708/mangpor2004170800063/83607686-blurred-park-with-bokeh-light-nature-background-fall-autumn-season.jpg" />
+
+            <Button Text="Go To Master Page" Clicked="Button_Clicked" />
+
+            <Label Text="Another Containt" />
+        </FlexLayout>
+    </ContentPage>
+    <ContentPage Title="Page-2">
+        <FlexLayout Direction="Column"
+                AlignItems="Center"
+                JustifyContent="SpaceEvenly">
+
+            <Label Text="Page - 2"
+               FontSize="Large" />
+
+            <Image Source="https://cache.desktopnexus.com/thumbseg/711/711200-bigthumbnail.jpg" />
+
+            <Button Text="Go To Master Page" Clicked="Button_Clicked" />
+
+            <Label Text="Another Containt" />
+        </FlexLayout>
+    </ContentPage>
+    <ContentPage Title="Page-3">
+        <FlexLayout Direction="Column"
+                AlignItems="Center"
+                JustifyContent="SpaceEvenly">
+
+            <Label Text="Page - 3"
+               FontSize="Large" />
+
+            <Image Source="https://previews.123rf.com/images/denphumi/denphumi1305/denphumi130500124/19911835-natural-green-spring-or-summer-season-abstract-nature-background.jpg" />
+
+            <Button Text="Go To Master Page" Clicked="Button_Clicked" />
+
+            <Label Text="Another Containt" />
+        </FlexLayout>
+    </ContentPage>
+</TabbedPage>

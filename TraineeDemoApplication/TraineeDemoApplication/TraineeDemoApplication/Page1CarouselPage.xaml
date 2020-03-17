@@ -1,0 +1,20 @@
+﻿<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              x:Class="TraineeDemoApplication.Page1CarouselPage">
+    <ContentPage>
+        <StackLayout BackgroundColor="Red">
+            <Label Text="Page 1 Containt swap to left" FontSize="Large" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout BackgroundColor="Green">
+            <Label Text="Page 2 Containt swap to left" FontSize="Large" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout BackgroundColor="Pink">
+            <Label Text="Page 3 Containt" FontSize="Large" />
+            <Button Text="Start Application" Clicked="Click_ME"></Button>
+        </StackLayout>
+    </ContentPage>
+</CarouselPage>

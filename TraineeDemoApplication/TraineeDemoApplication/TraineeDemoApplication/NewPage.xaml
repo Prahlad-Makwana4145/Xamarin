@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TraineeDemoApplication.NewPage">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Spacing="15">
+            <ImageButton Source="download" Clicked="ImageButton_Clicked" />
+
+                <!--<Slider x:Name="slider"
+                        m
+                        Value="15"
+                Maximum="360"
+                        MinimumTrackColor="Red"
+                        MaximumTrackColor="Blue"
+                        ThumbColor="Yellow"/>-->
+
+                <Image Source="download" x:Name="images12"
+              
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+            <Stepper Maximum="360"
+                 Increment="30"
+                 HorizontalOptions="Center"
+                 ValueChanged="OnStepperValueChanged" />
+
+                <BoxView Color="Blue" Margin="10"
+                         HeightRequest="5" WidthRequest="5"
+                         CornerRadius="10">
+                    
+                </BoxView>
+
+                <Frame HorizontalOptions="Center" HasShadow="True" BorderColor="LightGray">
+                    <Image Source="download" />
+                </Frame>
+                <!--<ListView>
+                    <ListView.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>mono</x:String>
+                            <x:String>monodroid</x:String>
+                            <x:String>monotouch</x:String>
+                            <x:String>monorail</x:String>
+                            <x:String>monodevelop</x:String>
+                            <x:String>monotone</x:String>
+                            <x:String>monopoly</x:String>
+                            <x:String>monomodal</x:String>
+                            <x:String>mononucleosis</x:String>
+                        </x:Array>
+                    </ListView.ItemsSource>
+                </ListView>
+
+                <ListView x:Name="lstView">
+                    
+                </ListView>
+
+                <WebView HeightRequest="5000" Source="https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/webview?tabs=windows">
+                    
+                </WebView>-->
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
